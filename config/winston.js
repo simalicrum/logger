@@ -4,7 +4,7 @@ export const logConfiguration = (filename) => {
   return {
     transports: [
       new winston.transports.Console({
-        level: 'warn'
+        level: 'info'
       }),
       new winston.transports.File({
         level: 'info',
